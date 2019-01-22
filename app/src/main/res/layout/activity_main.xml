@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show Contact"
+        android:textAllCaps="false"
+        android:onClick="contactActivity"/>
+    <Button
+        android:id="@+id/btnCallLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show Call log"
+        android:textAllCaps="false"
+        android:onClick="callLogActivity"/>
+    <Button
+        android:id="@+id/btnMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show Media"
+        android:textAllCaps="false"
+        android:onClick="mediaStorageActivity"/>
+    <Button
+        android:id="@+id/btnAppsetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App setting"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
